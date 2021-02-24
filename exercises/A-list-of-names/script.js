@@ -10,8 +10,8 @@ function listOfNames(arrayOfPeople) {
     let h2Els = document.createElement("h2");
     content.appendChild(h2Els);
 
-    h1El.innerText = people[i].name;
-    h2Els.innerText = people[i].job;
+    h1El.innerText = arrayOfPeople[i].name;
+    h2Els.innerText = arrayOfPeople[i].job;
   }
 }
 
